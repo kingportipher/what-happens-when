@@ -1,0 +1,8 @@
+The question "What happens when you type google.com into your browser's address box and press enter?" can be succinctly answered as follows:
+
+User Input and OS Interaction: Physical key presses are translated into events by the operating system.
+URL Parsing and DNS Resolution: The browser parses the input as a URL, resolves the domain name via DNS to get the server's IP address.
+Network Communication: A TCP connection is established to the server (HTTP or HTTPS), involving socket opening and TLS handshake if secure.
+HTTP Request and Response: An HTTP request is sent to the server, which responds with HTML content (and potentially other resources).
+Rendering: The browser parses HTML, computes styles, constructs a render tree, and renders the page on the screen.
+This process involves intricate interactions between hardware (keyboard), software (OS, browser), network protocols (DNS, TCP/IP, TLS), and web technologies (HTML, CSS, JavaScript), ensuring that users can access and interact with web content seamlessly.
